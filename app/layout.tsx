@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Srinjay Das Gupta",
   description: "Full-stack dev by day, ML tinkerer by night.",
+  icons:{
+    icon: "/favicon.ico",
+  }
 };
 
 export default function RootLayout({
