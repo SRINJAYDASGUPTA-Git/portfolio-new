@@ -107,33 +107,38 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Srinjay is a friend of mine from 1st year, he is very hardworking and dedicated towards his work, he mostly does his work days before the deadline, working with Srinjay is at ease as he also got good communication skills so that as a teammate I can rely on him.",
+      name: "Prabuddha Chatterjee",
+      title: "CEO of KickStart and CTO and Co-Founder of Calorie Guard",
+      profile: '/pc.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Srinjay was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Srinjay's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Srinjay is the ideal partner.",
+      name: "Rajdip Bhattacharyya",
+      title: "Co-Founder of Keyshade",
+      profile: '/rb.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Srinjay was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Srinjay's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Srinjay is the ideal partner.",
+      name: "Sawan Bhattacharya",
+      title: "Co-Founder of Keyshade",
+      profile: '/sb.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Srinjay was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Srinjay's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Srinjay is the ideal partner.",
+      name: "Arghyadip Biswas",
+      title: "Founder and CEO of Calorie Guard and CEO of Faslane Agency",
+      profile: '/ab.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with Srinjay was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Srinjay's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Srinjay is the ideal partner.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
+      profile: '/profile.svg'
     },
   ];
   
