@@ -203,13 +203,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      href: 'https://github.com/SRINJAYDASGUPTA-Git/'
     },
     {
       id: 2,
       img: "/twit.svg",
+      href: 'https://x.com/SrinjayDasGupta'
     },
     {
       id: 3,
       img: "/link.svg",
+      href: 'https://www.linkedin.com/in/srinjay-das-gupta-441841214/'
     },
   ];
