@@ -10,7 +10,7 @@ export const projects = [
     title: "EnderMeet - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/endermeet.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/s.svg", "/c.svg"],
     link: "https://endermeet.vercel.app",
   },
   {
