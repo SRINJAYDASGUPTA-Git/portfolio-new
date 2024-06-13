@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://srinjaydg.in/sitemap.xml
