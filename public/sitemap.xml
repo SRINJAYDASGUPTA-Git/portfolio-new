@@ -6,28 +6,33 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://www.srinjaydg.in/#about</loc>
     <lastmod>2024-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://www.srinjaydg.in/#projects</loc>
     <lastmod>2024-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-    <url>
-        <loc>https://www.srinjaydg.in/#testimonials</loc>
-        <lastmod>2024-06-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://www.srinjaydg.in/#contact</loc>
-        <lastmod>2024-06-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+
+  <url>
+      <loc>https://www.srinjaydg.in/#testimonials</loc>
+      <lastmod>2024-06-13</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+  </url>
+  
+  <url>
+      <loc>https://www.srinjaydg.in/#contact</loc>
+      <lastmod>2024-06-13</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+  </url>
   <!-- Add more URLs for your other pages -->
 </urlset>
