@@ -30,7 +30,7 @@ const Hero = () => {
             </h2>
             <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl " words="Weaving Logic with Creativity to Craft Digital Experiences." />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                Hi, I&apos;m Srinjay Das Gupta, a web developer and teacher based in India
+                Hi, I&apos;m Srinjay Das Gupta, a full stack developer and teacher based in Kolkata, India
             </p>
             <a href="#about">
                 <MagicButton text="Show my work" icon={<FaLocationArrow />} position="right"/>
