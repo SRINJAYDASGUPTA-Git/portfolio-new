@@ -11,8 +11,14 @@ const Clients = () => {
       <div className="flex flex-col items-center max-lg:mt-10">
         <InfiniteMovingCards
           items={testimonials}
-          direction="right"
+          direction="left"
           speed="normal"
+          className="md:hidden block"
+        /> <InfiniteMovingCards
+          items={testimonials}
+          direction="left"
+          speed="slow"
+          className="hidden md:block"
         />
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {companies.map(({ name, id, img, nameImg }) => (
