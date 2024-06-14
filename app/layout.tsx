@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Srinjay Das Gupta",
+
   description: "Full-stack dev by day, ML tinkerer by night.",
   icons: {
     icon: "/favicon-32x32.png",
@@ -101,6 +102,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>Srinjay Das Gupta</title>
         <link rel="canonical" href="https://srinjaydg.in" />
 
         <link
@@ -126,6 +130,32 @@ export default function RootLayout({
         <meta name="application-name" content="Srinjay Das Gupta" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Srinjay Das Gupta",
+            "url": "https://www.srinjaydg.in",
+            "sameAs": [
+              "https://www.linkedin.com/in/srinjay-das-gupta-441841214/",
+              "https://github.com/SRINJAYDASGUPTA-Git",
+              "https://x.com/SrinjayDasGupta"
+            ],
+            "jobTitle": "Full-Stack Developer",
+            "worksFor": [
+              {
+                "@type": "Organization",
+                "name": "Calorie Guard"
+              },
+              {
+                "@type": "Organization",
+                "name": "KickStart"
+              }
+            ]
+          }
+        `}
+        </script>
       </Head>
       <body className={inter.className}>
         <ThemeProvider
