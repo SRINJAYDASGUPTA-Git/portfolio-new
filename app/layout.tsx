@@ -122,6 +122,8 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="apple-mobile-web-app-title" content="Srinjay Das Gupta" />
+        <meta name="application-name" content="Srinjay Das Gupta" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
