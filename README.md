@@ -2,7 +2,7 @@
 
 Welcome to the source code repository for my personal portfolio website. This website showcases my projects, skills, and experiences. 
 
-![Portfolio Screenshot](path/to/your/screenshot/image.jpg)
+![Portfolio Screenshot](https://github.com/SRINJAYDASGUPTA-Git/portfolio-new/assets/70833470/3371e1ef-d6ce-4e2d-bbd5-29308f93a032)
 
 ## 📋 Table of Contents
 
