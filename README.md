@@ -67,7 +67,7 @@ npm run dev
 Open your browser and visit `http://localhost:3000` to view the website.
 
 ## <a name="contributing">🤝 Contributing</a>
-Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request.
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request. Detailed guidelines [here](CONTRIBUTING.md)
 
 ## <a name="license">📜 License</a>
 This project is licensed under the [MIT License](LICENSE).
