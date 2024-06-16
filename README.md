@@ -44,12 +44,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/SRINJAYDASGUPTA-Git/portfolio-new.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repo-name
+    cd portfolio-new
     ```
 
 3. Install dependencies (if applicable):
@@ -64,7 +64,7 @@ To start the development server, run the following command (if applicable):
 ```bash
 npm run dev
 ```
-Open your browser and visit http://localhost:3000 to view the website.
+Open your browser and visit `http://localhost:3000` to view the website.
 
 ## <a name="contributing">🤝 Contributing</a>
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request.
