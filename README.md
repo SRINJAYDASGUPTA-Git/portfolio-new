@@ -70,7 +70,7 @@ Open your browser and visit http://localhost:3000 to view the website.
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request.
 
 ## <a name="license">📜 License</a>
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ## <a name="contact">📬 Contact</a>
 Feel free to reach out if you have any questions or want to connect!
