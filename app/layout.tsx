@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -156,18 +157,6 @@ export default function RootLayout({
           }
         `}
         </script>
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJ0J9QLND8"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-ZJ0J9QLND8');
-            `,
-          }}
-        />
       </Head>
       <body className={inter.className}>
         <ThemeProvider
@@ -178,6 +167,22 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZJ039QLND8"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZJ0J9QLND8');
+            `,
+          }}
+        />
       </body>
     </html>
   );
