@@ -156,6 +156,18 @@ export default function RootLayout({
           }
         `}
         </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJ0J9QLND8"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZJ0J9QLND8');
+            `,
+          }}
+        />
       </Head>
       <body className={inter.className}>
         <ThemeProvider
