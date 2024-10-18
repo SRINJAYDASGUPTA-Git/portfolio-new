@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
+  //Experience Component
   return (
     <div className="py-20" id="testimonials">
       <h1 className="heading">
