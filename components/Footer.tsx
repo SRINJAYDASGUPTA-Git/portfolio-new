@@ -4,7 +4,7 @@ import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
 import { profile } from 'console'
 import Link from 'next/link'
-
+// Footer Component
 const Footer = () => {
   return (
     <footer className='w-full pb-10 mb-[100px] md:mb-5' id='contact'>

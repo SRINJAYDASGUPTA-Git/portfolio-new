@@ -14,13 +14,21 @@ export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
+        {/* Navigation Bar */}
         <FloatingNav navItems={navItems} />
+        {/* Hero Section */}
         <Hero />
+        {/* Bento Grid */}
         <Grid />
+        {/* Projects */}
         <RecentProjects />
+        {/* Client Remarks */}
         <Clients />
+        {/* Experience */}
         <Experience />
+        {/* SDE Approach */}
         <Approach />
+        {/* Contact & Footer */}
         <Footer />
       </div>
     </main>
