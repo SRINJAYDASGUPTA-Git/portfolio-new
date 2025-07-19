@@ -1,7 +1,6 @@
 'use client'
 import {experiences} from "@/data";
 import React from "react";
-import {AnimationOnScroll} from "react-animation-on-scroll";
 import ExperienceItem from "@/components/ExperienceItem";
 
 const Experience = () => {
@@ -13,14 +12,7 @@ const Experience = () => {
       </h1>
       <div className="w-full mt-12 gap-10 ">
           {experiences.map((experience, index) => (
-              <AnimationOnScroll
-                  animateIn={'animate__fadeInUp'}
-                  delay={index * 200}
-                  animateOnce={true}
-                  key={index}
-              >
                   <ExperienceItem key={index} experience={experience} />
-              </AnimationOnScroll>
           ))}
       </div>
     </div>
