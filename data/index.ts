@@ -1,3 +1,11 @@
+export interface TExperience {
+    title: string;
+    company: string;
+    location: string;
+    startDate: string;
+    endDate: string;
+    tasks: string[];
+}
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -188,6 +196,46 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+];
+export const experiences: TExperience[] = [
+  {
+    title: "Web Development Lead",
+    company: "Google Developer Student Club, NIT",
+    location: "Kolkata, India",
+    startDate: "Aug 2023",
+    endDate: "July 2024",
+    tasks: [
+      "Mentored GDSC members on technical and project development skills.",
+      "Led workshops on Git and Web Development Fundamentals with 200+ attendees.",
+      "Promoted version control best practices and advanced Git usage."
+    ]
+  },
+  {
+    title: "Web Development Associate",
+    company: "Code Together, Narula Institute of Technology",
+    location: "Kolkata, India",
+    startDate: "Sept 2024",
+    endDate: "Aug 2025",
+    tasks: [
+      "Helped establish Code Together as the official student coding community.",
+      "Grew the club to over 850 members through regular events and peer learning.",
+      "Co-organized inauguration event attended by 450+ students."
+    ]
+  },
+  {
+    title: "Backend & DevOps Intern",
+    company: "Anthrovia Technologies Pvt. Ltd.",
+    location: "Remote",
+    startDate: "Feb 2025",
+    endDate: "June 2025",
+    tasks: [
+      "Built a scalable backend for an e-commerce platform for street food vendors.",
+      "Developed RESTful APIs using Spring Boot for customer and employee mobile apps.",
+      "Set up CI/CD pipeline with GitHub Actions; deployed with Docker on Azure VMs.",
+      "Configured NGINX for load balancing and reverse proxy routing.",
+      "Used PostgreSQL for robust and efficient data storage."
+    ]
+  }
 ];
 
 export const socialMedia = [
