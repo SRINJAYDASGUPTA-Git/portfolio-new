@@ -23,22 +23,40 @@ export const projects = [
   },
   {
     id: 2,
-    title: "KickStart - Scam free freelancing platform",
-    des: "A platform that connects freelancers with clients, ensuring a scam-free experience for both parties.",
-    img: "/kickstart.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fb.svg", "/c.svg"],
-    link: "https://www.kickstart.ltd",
+    title: "EndrLink - Secure URL Shortener",
+    des: "A secure and user-friendly URL shortening platform with full-stack integration. Backend built with Spring Boot, frontend with Next.js. Features robust JWT & OAuth2.0 authentication, Dockerized deployment, and PostgreSQL for scalable data storage.",
+    img: "/endrlink.svg",
+  // <a target="_blank" href="https://icons8.com/icon/90519/spring-boot">Spring Boot</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    iconLists: ["/spring.svg", "/pg.svg", "/next.svg", "/tail.svg", "/axios.svg", "/jwt.svg", "/oauth.svg", "/docker.svg", 'neon.svg'],
+    link: "https://endrlink.srinjaydg.in",
   },
+  {
+    id: 4,
+    title: "BookSocial - Social Network for Book Lovers",
+    des: "A full-stack book-focused social networking platform. Backend is powered by Spring Boot with JPA, Security & Mail support. Frontend built using Angular 18 and Bootstrap, integrating OpenAPI for typed APIs. Dockerized for deployment with CI/CD via GitHub Actions.",
+    img: "/booksocial.svg",
+    iconLists: [
+      "/spring.svg",
+      "/angular.svg",
+      "pg.svg",
+      "/bootstrap.svg",
+      "/openapi.svg",
+      "/docker.svg",
+      "/jwt.svg"
+    ],
+    link: "https://github.com/srinjaydg/bookSocialNetwork"  // or actual deployment link if available
+  }
+  ,
   {
     id: 3,
-    title: "Building a Love for Numbers: Because of Maths",
-    des: "A website designed to make learning mathematics engaging and accessible. Built for a passionate math tutor.",
-    img: "/maths.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fb.svg", "/c.svg"],
-    link: "https://www.becauseofmaths.in",
+    title: "The Puneet Institute – Academic Coaching for Classes 5–12",
+    des: "A comprehensive educational platform built for The Puneet Institute, offering expert-led coaching for students from Classes 5 to 12 across all English-medium boards. The site showcases a full range of subjects, modern learning tools, and a commitment to academic excellence.",
+    img: "/tpi.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/jwt.svg", "/express.svg", "/neon.svg", "pg.svg"],
+    link: "https://www.thepuneetinstitute.in",
   },
   {
-    id: 4, // Assuming you want to assign a unique id for each project
+    id: 5, // Assuming you want to assign a unique id for each project
     title: "Bharatiya Shotokan Karate Academy Website",
     des: "Website for the Bharatiya Federation of Shotokan Karate, showcasing their organization and programs.",
     link: "https://www.bfsk.co.in/",
