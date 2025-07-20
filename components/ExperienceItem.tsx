@@ -39,14 +39,14 @@ const ExperienceItem: React.FC<Props> = ({ experience }) => {
                         <div className="text-lg font-semibold text-foreground">
                             {experience.startDate} – {experience.endDate}
                         </div>
-                        <div className="flex flex-col gap-y-1">
+                        <div className="flex flex-col gap-y-2">
                             {experience.tasks.map((task, index) => (
                                 <div
                                     key={index}
                                     className="flex items-center gap-x-2 text-sm text-muted-foreground"
                                 >
                                     <div className="min-w-[5px] min-h-[5px] bg-[#323647] dark:bg-[#E2E5F0] rounded-full" />
-                                    {task}
+                                    <span dangerouslySetInnerHTML={{ __html: task }} />
                                 </div>
                             ))}
                         </div>
@@ -76,7 +76,7 @@ const ExperienceItem: React.FC<Props> = ({ experience }) => {
                                 className="flex items-center gap-x-2 text-sm text-muted-foreground"
                             >
                                 <div className="min-w-[5px] min-h-[5px] bg-[#323647] dark:bg-[#E2E5F0] rounded-full" />
-                                {task}
+                                <span dangerouslySetInnerHTML={{ __html: task }} />
                             </div>
                         ))}
                     </div>

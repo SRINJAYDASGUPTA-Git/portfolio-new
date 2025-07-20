@@ -7,6 +7,7 @@ import animationData from '@/data/confetti.json'
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import dynamic from "next/dynamic";
+import {GrDocumentPdf} from "react-icons/gr";
 const BackgroundGradientAnimation = dynamic(() => import('./GradientBg'),{ssr: false})
 export const BentoGrid = ({
   className,
@@ -137,7 +138,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 &&(
-            <div className="mt-5 relative">
+            <div className="mt-5 relative flex gap-5">
               <div className={`absolute -bottom-5 right-0 `}>
                 <Lottie options={{
                   loop: copied,
@@ -155,6 +156,19 @@ export const BentoGridItem = ({
                 className="!bg-[#161a31]"
                 handleClick={handleCopy}
                 />
+              {/*<button className="relative inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">*/}
+              {/*  Shimmer*/}
+              {/*</button>*/}
+              <MagicButton
+                  text={"Resume"}
+                  icon={<GrDocumentPdf/>}
+                  position={'right'}
+                  spin={false}
+                  className={'animate-shimmer border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50'}
+                  handleClick={()=>{
+                    window.open("https://drive.google.com/file/d/12VNmoF7lxQEsC_54_9SZkvemsBf0dG9e/view?usp=sharing", "_blank");
+                  }}
+              />
             </div>
           )}
         </div>

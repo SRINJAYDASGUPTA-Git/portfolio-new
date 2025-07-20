@@ -115,14 +115,14 @@ export const testimonials = [
     quote:
       "Srinjay is a friend of mine from 1st year, he is very hardworking and dedicated towards his work, he mostly does his work days before the deadline, working with Srinjay is at ease as he also got good communication skills so that as a teammate I can rely on him.",
     name: "Prabuddha Chatterjee",
-    title: "CEO of KickStart and CTO and Co-Founder of Calorie Guard",
+    title: "CTO and Co-Founder of Anthrovia Technologies Pvt. Ltd.",
     profile: "/pc.svg",
   },
   {
     quote:
       "Srinjay Das Gupta's technical skills, creativity, and professionalism consistently impressed me across web development projects. He transforms ideas into beautiful, functional websites that exceed expectations. His meticulousness, commitment to deadlines, and clear communication ensure a smooth process. Srinjoy's innovative problem-solving tackles complex challenges, making him a highly recommended web developer.",
     name: "Arghyadip Biswas",
-    title: "Founder and CEO of Calorie Guard and CEO of Faslane Agency",
+    title: "Founder and CEO of Calorie Guard",
     profile: "/ab.svg",
   },
   {
@@ -156,15 +156,14 @@ export const companies = [
   },
   {
     id: 3,
-    name: "Kickstart",
-    img: "/kickstart-logo.svg",
-    nameImg: "/kickstartName.svg",
-  },
-  {
-    id: 4,
     name: "Keyshade",
     img: "/keyshade.svg",
   },
+    {
+        id: 4,
+        name: "Anthrovia Technologies Pvt. Ltd.",
+        img: "/anthrovia.svg",
+    }
 ];
 
 export const workExperience = [
@@ -200,14 +199,14 @@ export const workExperience = [
 export const experiences: TExperience[] = [
   {
     title: "Web Development Lead",
-    company: "Google Developer Student Club, NIT",
+    company: "Google Developer Student Club, Narula Institute of Technology",
     location: "Kolkata, India",
     startDate: "Aug 2023",
     endDate: "July 2024",
     tasks: [
-      "Mentored GDSC members on technical and project development skills.",
-      "Led workshops on Git and Web Development Fundamentals with 200+ attendees.",
-      "Promoted version control best practices and advanced Git usage."
+      "<strong>Mentored</strong> GDSC members on technical and project development skills.",
+      "<strong>Led workshops</strong> on Git and Web Development Fundamentals with <strong>200+ attendees</strong>.",
+      "<strong>Promoted</strong> version control best practices and advanced Git usage."
     ]
   },
   {
@@ -217,23 +216,21 @@ export const experiences: TExperience[] = [
     startDate: "Sept 2024",
     endDate: "Aug 2025",
     tasks: [
-      "Helped establish Code Together as the official student coding community.",
-      "Grew the club to over 850 members through regular events and peer learning.",
-      "Co-organized inauguration event attended by 450+ students."
+      "Helped establish <strong>Code Together</strong> as the official student coding community.",
+      "Grew the club to over <strong>850 members</strong> through regular events and peer learning.",
+      "Co-organized inauguration event attended by <strong>450+ students</strong>."
     ]
   },
   {
     title: "Backend & DevOps Intern",
     company: "Anthrovia Technologies Pvt. Ltd.",
-    location: "Remote",
+    location: "Hybrid",
     startDate: "Feb 2025",
     endDate: "June 2025",
     tasks: [
-      "Built a scalable backend for an e-commerce platform for street food vendors.",
-      "Developed RESTful APIs using Spring Boot for customer and employee mobile apps.",
-      "Set up CI/CD pipeline with GitHub Actions; deployed with Docker on Azure VMs.",
-      "Configured NGINX for load balancing and reverse proxy routing.",
-      "Used PostgreSQL for robust and efficient data storage."
+      "Developed and deployed a scalable backend for a street vendor e-commerce platform using <strong>Spring Boot</strong>, <strong>Docker</strong>, and <strong>PostgreSQL</strong>.",
+      "Implemented a multilingual fuzzy trigram search algorithm by phonetically encoding native languages in both the database and search tokens, enabling effective product search in <strong>Hindi</strong>, <strong>Bengali</strong>, and <strong>English</strong>.",
+      "Built 15+ <strong>RESTful APIs</strong> for customer and employee apps; reduced response latency by 40%. Deployed via <strong>CI/CD (GitHub Actions)</strong> on <strong>Azure VMs</strong> with <strong>NGINX</strong> for load balancing."
     ]
   }
 ];

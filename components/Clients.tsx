@@ -23,7 +23,7 @@ const Clients = () => {
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {companies.map(({ name, id, img, nameImg }) => (
             <div key={id} className="flex md:max-w-72  max-w-60 gap-2">
-              {name === "Keyshade" ? (
+              {name === "Keyshade" || name === "Anthrovia Technologies Pvt. Ltd." ? (
                 <img src={img} alt={name} className="md:w-44 w-32" />
               ) : (
                 <img src={img} alt={name} className="md:w-16 w-11" />
