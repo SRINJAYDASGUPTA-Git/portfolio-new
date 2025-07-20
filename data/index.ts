@@ -157,6 +157,13 @@ export const testimonials = [
     title: "Co-Founder and CEO of Keyshade",
     profile: "/sb.svg",
   },
+  {
+    quote:
+      "Mr. Srinjay Dasgupta is a dedicated and inspiring faculty member whose commitment, excellence, and passion for teaching make him one of the most respected educators at The Puneet Institute.",
+    name: "Gurpreet Singh",
+    title: "Founder of The Puneet Institute",
+    profile: "/punit.svg",
+  }
 ];
 
 export const companies = [
