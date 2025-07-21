@@ -32,19 +32,19 @@ export const projects = [
   },
   {
     id: 4,
-    title: "BookSocial - Social Network for Book Lovers",
+    title: "EnderBrary - Social Network for Book Lovers",
     des: "A full-stack book-focused social networking platform. Backend is powered by Spring Boot with JPA, Security & Mail support. Frontend built using Angular 18 and Bootstrap, integrating OpenAPI for typed APIs. Dockerized for deployment with CI/CD via GitHub Actions.",
-    img: "/booksocial.svg",
+    img: "/enderbrary.svg",
     iconLists: [
       "/spring.svg",
-      "/angular.svg",
-      "pg.svg",
-      "/bootstrap.svg",
+      "/next.svg",
+      "/pg.svg",
+      "/tail.svg",
       "/openapi.svg",
       "/docker.svg",
       "/jwt.svg"
     ],
-    link: "https://github.com/srinjaydg/bookSocialNetwork"  // or actual deployment link if available
+    link: "https://enderbrary.srinjaydg.in/"  // or actual deployment link if available
   }
   ,
   {
